@@ -3,7 +3,6 @@
         "module": "commonjs",
         "noImplicitAny": true,
         "removeComments": true,
-        "outFile": "./dist/app.js",
         "sourceMap": true,
         "typeRoots" : ["./typings"]
     },

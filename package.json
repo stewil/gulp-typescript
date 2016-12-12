@@ -1,10 +1,13 @@
 {
-  "name": "gulp-typescript",
+  "name": "gulp-typescript-boilerplate",
   "version": "0.0.1",
   "description": "A boilerplate for webapps using gulp and typescript",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/stewil/gulp-typescript.git"
+  },
+  "scripts": {
+    "postinstall": "typings install"
   },
   "keywords": [
     "gulp",
@@ -20,6 +23,8 @@
   "homepage": "https://github.com/stewil/gulp-typescript#readme",
   "devDependencies": {
     "gulp": "~3.9.1",
+    "gulp-load-plugins": "~1.4.0",
+    "gulp-typescript": "~3.1.3",
     "typescript": "~2.1.4",
     "typings": "~2.0.0"
   }
