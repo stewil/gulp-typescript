@@ -1,0 +1,26 @@
+{
+  "name": "gulp-typescript",
+  "version": "0.0.1",
+  "description": "A boilerplate for webapps using gulp and typescript",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stewil/gulp-typescript.git"
+  },
+  "keywords": [
+    "gulp",
+    "typescript",
+    "javascript",
+    "web"
+  ],
+  "author": "Steve Wilcox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stewil/gulp-typescript/issues"
+  },
+  "homepage": "https://github.com/stewil/gulp-typescript#readme",
+  "devDependencies": {
+    "gulp": "~3.9.1",
+    "typescript": "~2.1.4",
+    "typings": "~2.0.0"
+  }
+}
